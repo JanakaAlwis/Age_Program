@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc =new Scanner(System.in);
+        // get age as a input and check the conditions
         System.out.println("Enter the Age of a person: ");
         String input1=sc.nextLine();
 
