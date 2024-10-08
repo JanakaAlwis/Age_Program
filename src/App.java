@@ -5,6 +5,10 @@ public class App {
         { 
             System.out.println("You are underage."); 
         } 
+        else if (age >= 65) 
+        { 
+            System.out.println("You are retired."); 
+        }
         else 
         { 
             System.out.println("You are an adult."); 
