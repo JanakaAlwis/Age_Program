@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        int age = 18; 
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the Age of a person: ");
+        String input1=sc.nextLine();
+
+        int age = Integer.parseInt(input1); 
         if (age > 0 && age < 18) 
         { 
             if (age >= 15) 
@@ -22,5 +28,7 @@ public class App {
             System.out.println("You are an adult."); 
         } 
         System.out.println("Press space to exit.");
+
+        sc.close();
     }
 }
